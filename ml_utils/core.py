@@ -3,7 +3,6 @@
 __all__ = ['assert_eq', 'pivot_vs', 'display']
 
 # Cell
-
 def assert_eq(a, b):
     assert a==b, f"{a} != {b}"
 
